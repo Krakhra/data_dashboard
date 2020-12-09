@@ -1,0 +1,62 @@
+{
+  "name": "data_dashboard",
+  "version": "1.0.0",
+  "description": "Final data dashboard project for CIS4020",
+  "main": "index.js",
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "concurrently \"npm run dev\" \"npm run server\"",
+    "build": "react-scripts build",
+    "server": "NODE_ENV=development nodemon server/index.js",
+    "prod": "NODE_ENV=production nodemon server/index.js",
+    "lint": "prettier --write {{src,server}/**/*.js,{src,server}/*.js,*.json,src/**/*.css,src/*.css}",
+    "lint-check": "prettier --write {{src,server}/**/*.js,{src,server}/*.js,*.json,src/**/*.css,src/*.css}",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krakhra/data_dashboard.git"
+  },
+  "private": true,
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Krakhra/data_dashboard/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
