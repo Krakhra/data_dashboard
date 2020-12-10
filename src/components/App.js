@@ -1,4 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import LiteratureReivew from './literatureReview/LiteratureReview';
+import SidePanel from './sidePanel/SidePanel';
+import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 const App = () => {
   const [testVal, setTestVal] = useState('');
@@ -10,11 +19,20 @@ const App = () => {
   }, []);
 
   return (
-    <>
-      <h1>CIS4020: Data Dashboard</h1>
-      <p>Hello, World!</p>
-      <code>{testVal}</code>
-    </>
+    <div className = "App">
+      <div className = "leftPanel">
+        <SidePanel/>
+      </div>
+  
+      <div className = "rightPanel">
+        <Router>
+          <Switch>
+            <Route path = "/literature" exact component={LiteratureReivew}/>
+          </Switch>
+        </Router>
+      </div>
+      
+    </div>
   );
 };
 export default App;

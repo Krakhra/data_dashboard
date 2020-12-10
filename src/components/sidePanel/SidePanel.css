@@ -1,0 +1,26 @@
+.SidePanel{
+  font-family: 'Nunito', sans-serif;
+}
+
+.homelink{
+  text-decoration: none;
+  font-size:20px;
+  font-weight: bold;
+  color:rgb(8, 4, 54);
+
+  margin-left:25px;
+}
+
+.navLinkSpacing{
+  color:rgb(8, 4, 54);
+  margin-left:30px;
+  text-decoration: none;
+  font-size:14px;
+
+}
+
+.navLinkStyle{
+  text-decoration: none;
+  color:rgb(8, 4, 54);
+  margin-left:15px;
+}
