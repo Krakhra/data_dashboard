@@ -1,0 +1,86 @@
+.page-container {
+  height: 100vh;
+  overflow: auto;
+  padding-right: 55px;
+}
+
+.title {
+  font-size: 45px;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-top: 0px;
+  color: rgb(8, 4, 54);
+}
+
+.title-container {
+  margin-left: 20%;
+}
+
+.content-container {
+  margin-left: 20%;
+  color: rgb(8, 4, 54);
+  padding-top: 0px;
+  font-size: 20px;
+  width: 60%;
+  padding-left: 55px;
+}
+
+.section-container {
+  line-height: 1.75;
+  margin-bottom: 35px;
+}
+
+.section-container > .section-title {
+  line-height: initial !important;
+}
+
+.section-container .image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container img {
+  max-width: 100%;
+  align-self: flex-start;
+}
+
+.section-container ol > li,
+.section-container ul > li {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.section-container blockquote p {
+  font-style: italic;
+  font-size: 18pt;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 2em;
+  font-weight: 300;
+}
+
+.section-container blockquote p:before {
+  font-family: 'Sanchez', serif;
+  line-height: 1;
+  content: '\201C';
+  position: absolute;
+  top: -0.1em;
+  left: -0.35em;
+  font-size: 128pt;
+}
+
+.section-container table,
+.section-container th,
+.section-container td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.section-container th,
+.section-container td {
+  padding: 8px;
+}
+
+.page-container sup {
+  font-weight: normal !important;
+}
