@@ -13,8 +13,8 @@
   float: left;
 }
 
-.rightPanel{
-  margin-left:1%;
-  height:100vh;
+.rightPanel {
+  margin-left: 1%;
+  height: 100vh;
   overflow: auto;
 }

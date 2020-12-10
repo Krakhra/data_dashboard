@@ -68,3 +68,19 @@
   left: -0.35em;
   font-size: 128pt;
 }
+
+.section-container table,
+.section-container th,
+.section-container td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.section-container th,
+.section-container td {
+  padding: 8px;
+}
+
+.page-container sup {
+  font-weight: normal !important;
+}
