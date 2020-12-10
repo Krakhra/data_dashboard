@@ -10,11 +10,8 @@ class SidePanel extends React.Component{
         </div>
 
         <div style={{marginTop:'100px'}}>
-          <p className = "navLinkSpacing"><i className="fas fa-book"></i><a  className = "navLinkStyle" href = "/literature">Literature Reviews</a></p>
-          <p className = "navLinkSpacing"><i className="fas fa-book"></i><a  className = "navLinkStyle" href = "/literature">Link 2</a></p>
-          <p className = "navLinkSpacing"><i className="fas fa-book"></i><a  className = "navLinkStyle" href = "/literature">Link 3</a></p>
-          <p className = "navLinkSpacing"><i className="fas fa-book"></i><a  className = "navLinkStyle" href = "/literature">Link 4</a></p>
-          <p className = "navLinkSpacing"><i className="fas fa-book"></i><a  className = "navLinkStyle" href = "/literature">Link 5</a></p>
+          <p className = "navLinkSpacing"><i className="fas fa-book"></i><a  className = "navLinkStyle" href = "/literature">Literature Review</a></p>
+          
         </div>
       </div>
     );

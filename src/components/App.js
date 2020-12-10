@@ -29,7 +29,6 @@ const App = () => {
           <Switch>
             <Route path = "/literature" exact component={LiteratureReivew}/>
           </Switch>
-          
         </Router>
       </div>
       
