@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import LiteratureReivew from './literatureReview/LiteratureReview';
 import SidePanel from './sidePanel/SidePanel';
 import Growth from './growth/Growth';
+import Methods from './methods/Methods';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -30,6 +31,7 @@ const App = () => {
           <Switch>
             <Route path = "/literature" exact component={LiteratureReivew}/>
             <Route path = "/growth" exact component={Growth}/>
+            <Route path = "/methods" exact component={Methods}/>
           </Switch>
         </Router>
       </div>
