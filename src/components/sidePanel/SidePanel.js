@@ -23,9 +23,9 @@ const SidePanel = () => (
         </a>
       </p>
       <p className="navLinkSpacing">
-        <i className="fas fa-book"></i>
+        <i className="fas fa-gas-pump"></i>
         <a className="navLinkStyle" href="/question-two">
-          Question Two
+          COVID-19 and GHG Emissions
         </a>
       </p>
     </div>
