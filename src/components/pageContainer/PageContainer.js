@@ -4,7 +4,9 @@ import './PageContainer.css';
 
 const PageContainer = ({ title, children = [] }) => {
   const containers = useMemo(
-    () => children && children.map((child) => <div className="content-container">{child}</div>),
+    () =>
+      children &&
+      children.map((child) => <div className="content-container">{child}</div>),
     [children]
   );
 

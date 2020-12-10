@@ -1,37 +1,37 @@
-.LiteratureReview{
-  height:100vh;
+.LiteratureReview {
+  height: 100vh;
 }
 
-.literatureTitle{
+.literatureTitle {
   font-size: 45px;
-  padding-top:50px;
-  padding-left:50px;
-  margin-top:0px;
-  color:rgb(8, 4, 54);
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-top: 0px;
+  color: rgb(8, 4, 54);
 }
 
-.titleContainer{
-  margin-left:20%;
+.titleContainer {
+  margin-left: 20%;
 }
 
-.overviewContainer{
-  margin-left:20%;
-  color:rgb(8, 4, 54);
-  padding-top:0px;
+.overviewContainer {
+  margin-left: 20%;
+  color: rgb(8, 4, 54);
+  padding-top: 0px;
   font-size: 20px;
-  width:60%;
+  width: 60%;
 }
 
-.overview{
+.overview {
   padding-left: 55px;
 }
 
-.review{
+.review {
   padding-left: 55px;
-  padding-top:40px;
+  padding-top: 40px;
   font-size: 25px;
 }
 
-.cite{
-  padding-left:55px;
+.cite {
+  padding-left: 55px;
 }
