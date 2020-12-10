@@ -1,5 +1,7 @@
 .page-container {
   height: 100vh;
+  overflow: auto;
+  padding-right: 55px;
 }
 
 .title {
@@ -21,4 +23,37 @@
   font-size: 20px;
   width: 60%;
   padding-left: 55px;
+}
+
+.section-container {
+  line-height: 1.75;
+}
+
+.section-container > .section-title {
+  line-height: initial !important;
+}
+
+.section-container ol > li,
+.section-container ul > li {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.section-container blockquote p {
+  font-style: italic;
+  font-size: 18pt;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 2em;
+  font-weight: 300;
+}
+
+.section-container blockquote p:before {
+  font-family: 'Sanchez', serif;
+  line-height: 1;
+  content: '\201C';
+  position: absolute;
+  top: -0.1em;
+  left: -0.35em;
+  font-size: 128pt;
 }
