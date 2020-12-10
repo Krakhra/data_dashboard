@@ -16,4 +16,5 @@
 .rightPanel{
   margin-left:1%;
   height:100vh;
+  overflow: auto;
 }

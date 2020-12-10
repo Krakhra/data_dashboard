@@ -9,7 +9,7 @@ const SidePanel = () =>(
 
     <div style={{marginTop:'100px'}}>
       <p className = "navLinkSpacing"><i className="fas fa-book"></i><a  className = "navLinkStyle" href = "/literature">Literature Review</a></p>
-      
+      <p className = "navLinkSpacing"><i className="fas fa-leaf"></i><a  className = "navLinkStyle" href = "/growth">Sustainble Energy Growth</a></p>
     </div>
   </div>
 );
