@@ -1,0 +1,18 @@
+.App{
+  width:100%;
+  height:100vh;
+  margin:0;
+  padding: 0;
+}
+
+.leftPanel{
+  width:15%;
+  height:100vh;
+  background-color:rgb(238, 242, 247);
+  float:left;
+}
+
+.rightPanel{
+  margin-left:1%;
+  height:100vh;
+}

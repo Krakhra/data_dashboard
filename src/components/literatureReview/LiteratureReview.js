@@ -4,9 +4,12 @@ import './LiteratureReview.css';
 class LiteratureReview extends React.Component{
   render(){
     return(
-      <div className = "LiteratureReview">
-        <h1>Test</h1>
-      </div>
+      <>
+        <div className = "titleContainer">
+          <p className = "literatureTitle">Literature Review</p>
+        </div>
+        
+      </>
     );
   }
 }
