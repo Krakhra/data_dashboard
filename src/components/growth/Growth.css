@@ -3,29 +3,36 @@
   padding-top:10px;
   font-size:45px;
   width:50%;
-  margin-left:25%;
+  margin-left:15%;
   color:rgb(8, 4, 54);
 }
 
 .growthHistoryContainer{
-  margin-left:25%;
+  margin-left:15%;
   color:rgb(8, 4, 54);
   font-size:20px;
   font-weight:bold;
+  width:60%;
 }
 
 .imageContainer{
-  width:60%;
-  height:300px;
-  margin-left:25%;
+  width:90%;
+  height:auto;
+  margin-left:15%;
 }
 
 .image1{
-  width:50%;
   float:left;
+}
+
+.image2{
 
 }
-.image2{
-  
-  
+
+.growthDescriptionContainer{
+  margin-left:15%;
+  color:rgb(108, 108, 110);
+  font-size:20px;
+  font-weight:bold;
+  width:55%;
 }
