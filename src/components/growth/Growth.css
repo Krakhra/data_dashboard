@@ -1,0 +1,31 @@
+.growthTitleContainer{
+  margin-top:0px;
+  padding-top:10px;
+  font-size:45px;
+  width:50%;
+  margin-left:25%;
+  color:rgb(8, 4, 54);
+}
+
+.growthHistoryContainer{
+  margin-left:25%;
+  color:rgb(8, 4, 54);
+  font-size:20px;
+  font-weight:bold;
+}
+
+.imageContainer{
+  width:60%;
+  height:300px;
+  margin-left:25%;
+}
+
+.image1{
+  width:50%;
+  float:left;
+
+}
+.image2{
+  
+  
+}

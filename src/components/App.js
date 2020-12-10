@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import LiteratureReivew from './literatureReview/LiteratureReview';
 import SidePanel from './sidePanel/SidePanel';
+import Growth from './growth/Growth';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -28,6 +29,7 @@ const App = () => {
         <Router>
           <Switch>
             <Route path = "/literature" exact component={LiteratureReivew}/>
+            <Route path = "/growth" exact component={Growth}/>
           </Switch>
         </Router>
       </div>
