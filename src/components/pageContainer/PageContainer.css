@@ -27,10 +27,21 @@
 
 .section-container {
   line-height: 1.75;
+  margin-bottom: 35px;
 }
 
 .section-container > .section-title {
   line-height: initial !important;
+}
+
+.section-container .image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container img {
+  max-width: 100%;
+  align-self: flex-start;
 }
 
 .section-container ol > li,

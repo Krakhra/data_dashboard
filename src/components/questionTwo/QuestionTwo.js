@@ -1,5 +1,5 @@
 import React from 'react';
-import PageContainer, { Section } from '../pageContainer/PageContainer';
+import PageContainer, { Section, Image } from '../pageContainer/PageContainer';
 
 import './QuestionTwo.css';
 
@@ -9,7 +9,15 @@ const QuestionTwo = () => (
     title="Have the effects of COVID-19 on the sustainable energy sector impeded North America's ability to satisfy the goals of the Paris Climate Agreement?"
   >
     <Section title="Motivation">
-      <p>stuff stuff?</p>
+      <p>
+        We, the researchers, believe that COVID-19 may have impacted the energy sector,
+        and in particular, the sustainable energy sector accorss the world. But, we are
+        very interested to find out if the effects of COVID-19 have potentially allowed a
+        group of countries to hit targets which were previously unoptainable or have the
+        effects prevented a group of countries from hitting targets which they previously
+        were on track to hit. This information will allow someone to better understand if
+        the emissions of a country are reduced by policy or by chance.
+      </p>
     </Section>
 
     <Section title='Defining "North America"'>
@@ -144,11 +152,76 @@ const QuestionTwo = () => (
       </table>
     </Section>
 
-    <Section title="Predictions: Pre-COVID"></Section>
+    <Section title="Predictions: Pre-COVID">
+      <p>
+        Below, we show the Climate Action Tracker greenhouse gas emissions predictions
+        which were computed before COVID-19 for each of the three countries in question.
+      </p>
+      <p>
+        Within these predictions, we are interested in the predicted range (in megatonnes
+        CO2 eq.) of greenhouse gas emissions for each country by that country's target
+        year.
+      </p>
 
-    <Section title="Predictions: Post-COVID"></Section>
+      <h4>United States of America's Prediction</h4>
+      <Image src="./images/question-two/CAT_Predictions_USA_2019Sep.PNG" />
+      <p>
+        Predicted CO2 eq. emissions by 2025 (target year):{' '}
+        <strong>6,273&nbsp;Mt&nbsp;-&nbsp;6,373&nbsp;Mt</strong>
+      </p>
 
-    <Section title="Conclusion"></Section>
+      <h4>Canada's Prediction</h4>
+      <Image src="./images/question-two/CAT_Predictions_Canada_2019Sep.PNG" />
+      <p>
+        Predicted CO2 eq. emissions by 2030 (target year):{' '}
+        <strong>630&nbsp;Mt&nbsp;-&nbsp;763&nbsp;Mt</strong>
+      </p>
+
+      <h4>Mexico's Prediction</h4>
+      <Image src="./images/question-two/CAT_Predictions_Mexico_2019Sep.PNG" />
+      <p>
+        Predicted CO2 eq. emissions by 2030 (target year):{' '}
+        <strong>803&nbsp;Mt&nbsp;-&nbsp;843&nbsp;Mt</strong>
+      </p>
+    </Section>
+
+    <Section title="Predictions: Post-COVID">
+      <p>
+        Below, we show the Climate Action Tracker greenhouse gas emissions predictions
+        which were computed after the start of COVID-19 (once some effects were seen) for
+        each of the three countries in question.
+      </p>
+      <p>
+        Within these predictions, we are, once again, interested in the predicted range
+        (in megatonnes CO2 eq.) of greenhouse gas emissions for each country by that
+        country's target year.
+      </p>
+
+      <h4>United States of America's Prediction</h4>
+      <Image src="./images/question-two/CAT_Predictions_USA_2020Jul.PNG" />
+      <p>
+        Predicted CO2 eq. emissions by 2025 (target year):{' '}
+        <strong>5,744&nbsp;Mt&nbsp;-&nbsp;6,135&nbsp;Mt</strong>
+      </p>
+
+      <h4>Canada's Prediction</h4>
+      <Image src="./images/question-two/CAT_Predictions_Canada_2020Sep.PNG" />
+      <p>
+        Predicted CO2 eq. emissions by 2030 (target year):{' '}
+        <strong>603&nbsp;Mt&nbsp;-&nbsp;630&nbsp;Mt</strong>
+      </p>
+
+      <h4>Mexico's Prediction</h4>
+      <Image src="./images/question-two/CAT_Predictions_Mexico_2020Sep.PNG" />
+      <p>
+        Predicted CO2 eq. emissions by 2030 (target year):{' '}
+        <strong>774&nbsp;Mt&nbsp;-&nbsp;852&nbsp;Mt</strong>
+      </p>
+    </Section>
+
+    <Section title="Calculations & Results">
+
+    </Section>
   </PageContainer>
 );
 

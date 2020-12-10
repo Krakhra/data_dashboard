@@ -9,6 +9,12 @@ const Section = ({ className = '', title = '', children = [] }) => (
   </div>
 );
 
+const Image = ({ className = '', alt = 'No alt text provided.', src = '' }) => (
+  <div className="image-container">
+    <img src={src} alt={alt} />
+  </div>
+);
+
 const PageContainer = ({ className = '', title = '', children = [] }) => {
   const containers = useMemo(
     () =>
@@ -32,4 +38,4 @@ const PageContainer = ({ className = '', title = '', children = [] }) => {
   );
 };
 
-export { PageContainer as default, Section };
+export { PageContainer as default, Section, Image };
