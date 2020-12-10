@@ -1,0 +1,24 @@
+.page-container {
+  height: 100vh;
+}
+
+.title {
+  font-size: 45px;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-top: 0px;
+  color: rgb(8, 4, 54);
+}
+
+.title-container {
+  margin-left: 20%;
+}
+
+.content-container {
+  margin-left:20%;
+  color:rgb(8, 4, 54);
+  padding-top:0px;
+  font-size: 20px;
+  width:60%;
+  padding-left: 55px;
+}

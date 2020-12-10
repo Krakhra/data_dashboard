@@ -40,7 +40,7 @@
     "node": ">=12"
   },
   "prettier": {
-    "printWidth": 120,
+    "printWidth": 90,
     "tabWidth": 2,
     "singleQuote": true,
     "trailingComma": "es5"
