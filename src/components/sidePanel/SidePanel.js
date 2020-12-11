@@ -19,7 +19,7 @@ const SidePanel = () => (
       <p className="navLinkSpacing">
         <i className="fas fa-leaf"></i>
         <a className="navLinkStyle" href="/growth">
-          Sustainble Energy Growth
+          Sustainable Energy Growth
         </a>
       </p>
       <p className="navLinkSpacing">
