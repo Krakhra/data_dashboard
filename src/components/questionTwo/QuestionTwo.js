@@ -1,14 +1,5 @@
 import React from 'react';
-import PageContainer, { Section, Image } from '../pageContainer/PageContainer';
-
-const Reference = ({ id, text }) => (
-  <div style={{ paddingBottom: '30px', paddingLeft: '30px' }}>
-    <span style={{ marginLeft: '-30px' }}>[{id}]</span>
-    <span style={{ paddingLeft: '30px' }}>
-      <em>{text}</em>
-    </span>
-  </div>
-);
+import PageContainer, { Section, Image, Reference } from '../pageContainer/PageContainer';
 
 const QuestionTwo = () => (
   <PageContainer
