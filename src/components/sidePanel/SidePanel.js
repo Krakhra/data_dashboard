@@ -17,23 +17,13 @@ const SidePanel = () => (
 
     <div className="nav-link-container">
       <p className="nav-link-spacing">
-        <i className="fas fa-book"></i>
+        <i className="fas fa-chart-pie"></i>
         <NavLink
           className="nav-link-style"
-          to="/literature"
+          to="/question-one"
           activeClassName="nav-link-style-selected"
         >
-          Literature Review
-        </NavLink>
-      </p>
-      <p className="nav-link-spacing">
-        <i className="fas fa-leaf"></i>
-        <NavLink
-          className="nav-link-style"
-          to="/growth"
-          activeClassName="nav-link-style-selected"
-        >
-          Sustainable Energy Growth
+          Share of Sustainable Energy
         </NavLink>
       </p>
       <p className="nav-link-spacing">
@@ -46,6 +36,17 @@ const SidePanel = () => (
           COVID-19 and GHG Emissions
         </NavLink>
       </p>
+      <p className="nav-link-spacing">
+        <i className="fas fa-leaf"></i>
+        <NavLink
+          className="nav-link-style"
+          to="/growth"
+          activeClassName="nav-link-style-selected"
+        >
+          Sustainable Energy Growth
+        </NavLink>
+      </p>
+      
       <p className="nav-link-spacing">
         <i className="fas fa-battery-half"></i>
         <NavLink
@@ -66,6 +67,17 @@ const SidePanel = () => (
           Methods
         </NavLink>
       </p>
+      <p className="nav-link-spacing">
+        <i className="fas fa-book"></i>
+        <NavLink
+          className="nav-link-style"
+          to="/literature"
+          activeClassName="nav-link-style-selected"
+        >
+          Literature Review
+        </NavLink>
+      </p>
+      
     </div>
   </div>
 );

@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Home from './home/Home';
 import LiteratureReivew from './literatureReview/LiteratureReview';
+import QuestionOne from './questionOne/QuestionOne';
 import QuestionTwo from './questionTwo/QuestionTwo';
 import QuestionFour from './questionFour/QuestionFour';
 import SidePanel from './sidePanel/SidePanel';
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/question-two" exact component={QuestionTwo} />
           <Route path="/methods" exact component={Methods}/>
           <Route path="/question-four" exact component={QuestionFour} />
+          <Route path="/question-one" exact component={QuestionOne}/>
           <Redirect to="/" />
         </Switch>
       </div>

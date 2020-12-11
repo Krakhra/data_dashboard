@@ -12,7 +12,7 @@ const Home = () => (
       <ol>
         <li>
           Has COVID-19 increased or decreased the share of sustainable energy production
-          within the energy sector of North America? <Link to="/growth">View here.</Link>
+          within the energy sector of North America? <Link to="/question-one">View here.</Link>
         </li>
         <li>
           Have the effects of COVID-19 on the sustainable energy sector impeded North
