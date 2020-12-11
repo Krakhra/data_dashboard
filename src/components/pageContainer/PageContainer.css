@@ -13,11 +13,12 @@
 }
 
 .title {
-  font-size: 45px;
+  font-size: 45px !important;
   padding-top: 50px;
   padding-left: 50px;
   margin-top: 0px;
-  color: rgb(8, 4, 54);
+  color: rgb(8, 4, 54) !important;
+  font-weight: normal !important;
 }
 
 .content-container {
