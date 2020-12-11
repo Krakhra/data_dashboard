@@ -1,27 +1,30 @@
 .page-container {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 0 3rem;
+  max-width: 60rem;
+}
+
+.page-container-box {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   overflow: auto;
-  padding-right: 55px;
+  height: 100vh;
 }
 
 .title {
-  font-size: 45px;
+  font-size: 45px !important;
   padding-top: 50px;
   padding-left: 50px;
   margin-top: 0px;
-  color: rgb(8, 4, 54);
-}
-
-.title-container {
-  margin-left: 20%;
+  color: rgb(8, 4, 54) !important;
+  font-weight: normal !important;
 }
 
 .content-container {
-  margin-left: 20%;
   color: rgb(8, 4, 54);
   padding-top: 0px;
   font-size: 20px;
-  width: 60%;
   padding-left: 55px;
 }
 
