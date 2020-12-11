@@ -1,7 +1,15 @@
 .page-container {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 0 3rem;
+  max-width: 60rem;
+}
+
+.page-container-box {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   overflow: auto;
-  padding-right: 55px;
+  height: 100vh;
 }
 
 .title {
@@ -12,16 +20,10 @@
   color: rgb(8, 4, 54);
 }
 
-.title-container {
-  margin-left: 20%;
-}
-
 .content-container {
-  margin-left: 20%;
   color: rgb(8, 4, 54);
   padding-top: 0px;
   font-size: 20px;
-  width: 60%;
   padding-left: 55px;
 }
 
