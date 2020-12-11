@@ -28,6 +28,12 @@ const SidePanel = () => (
           COVID-19 and GHG Emissions
         </a>
       </p>
+      <p className="navLinkSpacing">
+        <i className="fas fa-vial"></i>
+        <a className="navLinkStyle" href="/methods">
+          Methods
+        </a>
+      </p>
     </div>
   </div>
 );
