@@ -25,12 +25,14 @@ const Reference = ({ id, text }) => (
 );
 
 const PageContainer = ({ className = '', title = '', children = [] }) => {
-  const containers = useMemo(() =>
-    React.Children.map(children, (child, idx) => (
-      <div key={idx} className="content-container">
-        {child}
-      </div>
-    ))
+  const containers = useMemo(
+    () =>
+      React.Children.map(children, (child, idx) => (
+        <div key={idx} className="content-container">
+          {child}
+        </div>
+      )),
+    [children]
   );
 
   return (
