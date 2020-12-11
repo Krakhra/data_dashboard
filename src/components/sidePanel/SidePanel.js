@@ -56,11 +56,15 @@ const SidePanel = () => (
           Eliminating Fossil Fuels
         </NavLink>
       </p>
-      <p className="navLinkSpacing">
+      <p className="nav-link-spacing">
         <i className="fas fa-vial"></i>
-        <a className="navLinkStyle" href="/methods">
+        <NavLink
+          className="nav-link-style"
+          to="/methods"
+          activeClassName="nav-link-style-selected"
+        >
           Methods
-        </a>
+        </NavLink>
       </p>
     </div>
   </div>
