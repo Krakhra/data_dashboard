@@ -21,7 +21,7 @@ const Home = () => (
         </li>
         <li>
           Will we see growth in different sustainable energy sectors in terms of energy
-          production? <Link to="/question-three">View here.</Link>
+          production? <Link to="/growth">View here.</Link>
         </li>
         <li>
           Will sustainable energy production realistically replace fossil fuel based
