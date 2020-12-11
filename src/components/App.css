@@ -1,20 +1,22 @@
-.App {
-  width: 100%;
+#app {
+  width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
   font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
-.leftPanel {
-  width: 15%;
+.left-panel {
+  flex: 0 0 20rem;
   height: 100vh;
   background-color: rgb(238, 242, 247);
   float: left;
 }
 
-.rightPanel {
-  margin-left: 1%;
+.right-panel {
+  flex: 1 1;
   height: 100vh;
   overflow: auto;
 }
