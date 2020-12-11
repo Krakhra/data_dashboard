@@ -46,6 +46,16 @@ const SidePanel = () => (
           COVID-19 and GHG Emissions
         </NavLink>
       </p>
+      <p className="nav-link-spacing">
+        <i className="fas fa-battery-half"></i>
+        <NavLink
+          className="nav-link-style"
+          to="/question-four"
+          activeClassName="nav-link-style-selected"
+        >
+          Eliminating Fossil Fuels
+        </NavLink>
+      </p>
     </div>
   </div>
 );
