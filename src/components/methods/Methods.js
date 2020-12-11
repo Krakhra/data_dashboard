@@ -1,6 +1,6 @@
 import React from 'react';
 import './Methods.css'
-import PageContainer from '../pageContainer/PageContainer'
+import PageContainer, { Section, Image, Reference } from '../pageContainer/PageContainer';
 
 const Methods = () =>(
   <div className = "methods">

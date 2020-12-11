@@ -14,7 +14,7 @@ const Growth = () => (
   >
     <Section title="Historical Trends">
       <Image src={solar1} />
-      <Image src={wind1} />
+      <Image src={wind1} alt="img not found"/>
       <p>
         These Graphs show us energy production from 1990 to 2015. We can see for USA and
         Canada that sustainable energy production is increasing. Although for Canada and
