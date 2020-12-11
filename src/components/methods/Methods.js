@@ -3,6 +3,9 @@ import './Methods.css';
 import PageContainer, { Section, Image} from '../pageContainer/PageContainer';
 import graph from './graph.png';
 import eqn from './equation.png';
+import eqn2 from './equation2.png';
+import eqn3 from './equation3.png';
+import eqn4 from './equation4.png'
 
 const Methods = () =>(
   <PageContainer 
@@ -54,6 +57,27 @@ const Methods = () =>(
       <p>
         In our case for predicting wind and solar proportions, we used a 95% prediction interval (α = 0.05), resulting in a range of values that we can expect 95% of the actual future data to fall within. 
       </p>
+    </Section>
+
+    <Section title = "Least squares method - simple linear regression">
+      <p>
+        Often the simplest explanation is the best. Simple linear regression is used when the dependent and independent 
+        data trend in a straight line. When simple linear regression is carried out we end up with two parameters that 
+        describe the data as a straight line: the intercept of the y-axis (b0) and the slope of the line (b1). To find 
+        these parameters we use a method called Least Squares Regression, which will minimize the residuals (distance between 
+        a data point and the regression line). Minimizing residuals will give us a regression line that best fits the data, 
+        also known as a "line of best fit".
+      </p>
+
+      <p>
+        To do a Least Squares Regression we must first calculate a few parameters from our dataset:  Σx, Σy, Σx², Σxy and n 
+        (Σ means sum of, n is the number of data points). Once we have these parameters we can use them to calculate our parameters 
+        for the regression line (b0, b1) using these equations:
+      </p>
+      <Image src={eqn2}/><br/>
+      <Image src={eqn3}/>
+      <p>Now just plug b0 and b1 into this equation and you have your line of best fit!</p>
+      <Image src={eqn4}/><br/>
     </Section>
   </PageContainer>
 );
